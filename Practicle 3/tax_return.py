@@ -4,6 +4,6 @@ def tax_return(income):
         return 0
     else:
         return (income - 16000) * 0.3
-
+print(tax_return(70000))
 
 
